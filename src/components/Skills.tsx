@@ -9,7 +9,7 @@ export default function Skills() {
         <SectionTitle
           eyebrow="Practice Areas"
           title="Skills & Expertise"
-          subtitle="Tools, disciplines, and languages I work with"
+          subtitle="The engineering and governance foundations behind the work"
           icon={<CompassIcon />}
         />
         <div className="grid grid-cols-3">

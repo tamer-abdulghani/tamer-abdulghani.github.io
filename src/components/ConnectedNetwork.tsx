@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 
 /**
- * Ambient "particles network" background — slowly drifting dots that connect
+ * Ambient "particles network" background: slowly drifting dots that connect
  * with thin lines when close enough. The nearer two dots are, the brighter
  * the line. Cursor acts as a virtual node so lines gently follow the mouse.
  * Non-interactive (pointer-events: none), respects prefers-reduced-motion.

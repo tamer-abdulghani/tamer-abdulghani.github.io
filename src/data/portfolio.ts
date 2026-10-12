@@ -41,14 +41,16 @@ export const profile = {
   name: 'Tamer Abdulghani',
   title: 'AI Architect',
   tagline:
-    'Designing enterprise-grade AI platforms, agentic architectures, and secure cloud-native systems.',
+    'Designing enterprise-grade AI platforms, agentic architectures, and secure cloud-native systems. Turning AI strategy into compliant, reusable components that teams build on.',
   location: 'Paris, France',
   github: 'https://github.com/tamer-abdulghani',
   linkedin: 'https://www.linkedin.com/in/tamer-abdulghani',
   credentials: ['MSc · Innovative Information Systems', 'Azure Solutions Architect Expert', 'CKAD'],
-  bio: `More than twelve years across software engineering and system architecture, with a focus on enterprise AI and GenAI platform development. I hold a Master of Science in Innovative Information Systems from Université Toulouse 1 Capitole.
+  bio: `More than twelve years across software engineering and system architecture, with a focus on enterprise AI and GenAI platform development in EU-regulated financial services. I hold a Master of Science in Innovative Information Systems from Université Toulouse 1 Capitole.
 
-My work spans agentic AI architectures, AI governance frameworks, and Azure AI/MLOps implementations — always grounded in scalable software engineering, DevSecOps discipline, and cloud-native design.`,
+My work spans agentic AI architectures, AI governance frameworks, and Azure AI/MLOps implementations, always grounded in scalable software engineering, DevSecOps discipline, and cloud-native design. I stay hands-on, building the pipelines, templates, and reference architectures that teams rely on.
+
+I design agentic systems with humans in the loop: agents prepare the work, people approve it. Security and compliance are designed in, not added before release.`,
 };
 
 export const skills: SkillGroup[] = [
@@ -58,11 +60,20 @@ export const skills: SkillGroup[] = [
       'Azure OpenAI',
       'Semantic Kernel',
       'Agentic AI',
+      'Multi-Agent Systems',
+      'MCP',
       'RAG',
+      'LLM Evaluation & Guardrails',
+      'Model Benchmarking',
       'AI Governance',
+      'EU AI Act · DORA · GDPR',
       'MLOps',
       'MLflow',
     ],
+  },
+  {
+    category: 'Architecture & Leadership',
+    items: ['Architecture Governance', 'Technology Evaluation', 'Platform as Product', 'Technical Mentoring'],
   },
   {
     category: 'Cloud & Platform',
@@ -70,7 +81,16 @@ export const skills: SkillGroup[] = [
   },
   {
     category: 'Software Engineering',
-    items: ['C#', '.NET', 'Python', 'Java', 'TypeScript', 'React', 'ASP.NET MVC'],
+    items: [
+      'C#',
+      '.NET',
+      'Python',
+      'Java',
+      'TypeScript',
+      'React',
+      'ASP.NET MVC',
+      'Event-Driven & Distributed Systems',
+    ],
   },
   {
     category: 'Data & Big Data',
@@ -83,6 +103,7 @@ export const skills: SkillGroup[] = [
       'Azure DevOps',
       'Docker',
       'Terraform',
+      'Policy as Code',
       'Zero-Trust',
       'Security Scanning',
     ],
@@ -100,7 +121,7 @@ export const skills: SkillGroup[] = [
 
 export const highlights: Highlight[] = [
   {
-    title: 'GenAI Hub — Enterprise AI Platform',
+    title: 'AI Hub: Enterprise AI Platform',
     description:
       'Owner of the architectural direction of AllianzGI’s AI platform. Golden-pathway templates for RAG and agentic AI, embedded governance, security scanning, and compliance controls.',
     tech: ['Azure OpenAI', 'Semantic Kernel', 'Kubernetes', 'React', 'Flask'],
@@ -108,13 +129,13 @@ export const highlights: Highlight[] = [
   {
     title: 'Enterprise MLOps Reference Framework',
     description:
-      'Designed and implemented an enterprise MLOps framework across Azure Databricks, Data Lake, MLflow, and GitHub Enterprise — adopted by teams across the organization.',
+      'Designed and implemented an enterprise MLOps framework across Azure Databricks, Data Lake, MLflow, and GitHub Enterprise, adopted by teams across the organization.',
     tech: ['Azure Databricks', 'MLflow', 'Data Lake', 'GitHub Enterprise'],
   },
   {
     title: 'AI Governance & DevSecOps',
     description:
-      'Zero-trust principles, automated guardrails, resilience testing, observability, and FinOps for cloud-native AI environments — balancing innovation with enterprise risk management.',
+      'Zero-trust principles and automated guardrails against prompt injection, data exfiltration, and agent tool misuse; resilience testing, observability, and FinOps for cloud-native AI environments, balancing innovation with enterprise risk management.',
     tech: ['DevSecOps', 'CI/CD', 'FinOps', 'Compliance'],
   },
 ];
@@ -123,21 +144,22 @@ export const experience: ExperienceItem[] = [
   {
     role: 'VP · AI Architect',
     company: 'Allianz Global Investors',
-    period: 'Feb 2025 — Present',
+    period: 'Feb 2025 - Present',
     location: 'Paris, France',
     highlights: [
-      'Own the architectural direction of AllianzGI’s AI Platform and GenAI Hub, driving the technical roadmap.',
+      'Own the architectural direction of AllianzGI’s AI Platform and AI Hub, driving the technical roadmap and shaping technology choices.',
       'Enable enterprise AI adoption through stakeholder engagement, knowledge-sharing forums, and communities of practice.',
       'Develop golden-pathway application templates for RAG and agentic AI, with built-in governance and security controls.',
       'Provide technical leadership to internal AI teams, offshore developers, and interns; conduct interviews and L3 escalations.',
       'Implement AI governance and security frameworks applying zero-trust principles to enterprise AI deployments.',
-      'Research emerging AI trends — agentic frameworks, coding agents, DevOps agents — and translate them into enterprise standards.',
+      'Work with enterprise architecture, information security, risk, and compliance teams to align AI solutions with the EU AI Act, DORA, and GDPR.',
+      'Research emerging AI trends (agentic frameworks, coding agents, DevOps agents) alongside regulatory developments, and translate them into enterprise standards.',
     ],
   },
   {
     role: 'AVP · Cloud Solution Architect',
     company: 'Allianz Global Investors',
-    period: 'Oct 2023 — Feb 2025',
+    period: 'Oct 2023 - Feb 2025',
     location: 'Paris, France',
     highlights: [
       'Implemented GenAI use-cases across the company using Azure OpenAI, Azure AI Search, Azure Functions, and Cosmos DB.',
@@ -148,7 +170,7 @@ export const experience: ExperienceItem[] = [
   {
     role: 'AVP · Senior Software Engineer',
     company: 'Allianz Global Investors',
-    period: 'Jun 2022 — Oct 2023',
+    period: 'Jun 2022 - Oct 2023',
     location: 'Paris, France',
     highlights: [
       'Defined enterprise-wide SDLC standards (collaboration workflow, release, and test management).',
@@ -158,9 +180,9 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
-    role: 'Senior Software Engineer — Allianz Global Investors',
+    role: 'Senior Software Engineer (client: Allianz Global Investors)',
     company: 'Capgemini',
-    period: 'Oct 2020 — Jun 2022',
+    period: 'Oct 2020 - Jun 2022',
     location: 'Toulouse, France',
     highlights: [
       'Cloud Center of Excellence: MLOps platform with Azure Databricks, MLflow, and Azure DevOps.',
@@ -170,9 +192,9 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
-    role: 'Software Engineer — Airbus',
+    role: 'Software Engineer (client: Airbus)',
     company: 'Capgemini',
-    period: 'Oct 2019 — Oct 2020',
+    period: 'Oct 2019 - Oct 2020',
     location: 'Toulouse, France',
     highlights: [
       'Delivered Airbus PCs XCheck, File Transfer Service (FTS+), Workstation Monitoring (AWM), and Tools Compliance Platform.',
@@ -181,7 +203,7 @@ export const experience: ExperienceItem[] = [
   {
     role: 'Big Data Engineer',
     company: 'Gisaïa',
-    period: 'May 2018 — Sep 2019',
+    period: 'May 2018 - Sep 2019',
     location: 'Toulouse, France',
     highlights: [
       'Designed data pipelines to ingest, enrich, and store Geo Big Data with Apache Spark, Java/Scala, Cassandra, Dataproc, and Docker.',
@@ -191,7 +213,7 @@ export const experience: ExperienceItem[] = [
   {
     role: 'Software Engineer',
     company: 'Tursys Travel Technologies',
-    period: 'Dec 2014 — Aug 2017',
+    period: 'Dec 2014 - Aug 2017',
     location: 'Istanbul, Turkey',
     highlights: [
       'Built B2C airline solutions and B2B/B2S platforms with ASP.NET MVC, MS SQL, Web API, and Redis.',
@@ -202,7 +224,7 @@ export const experience: ExperienceItem[] = [
   {
     role: 'Value Added Services Engineer',
     company: 'MTN Syria',
-    period: 'Jun 2014 — Nov 2014',
+    period: 'Jun 2014 - Nov 2014',
     location: 'Damascus, Syria',
     highlights: [
       'Administered telecom platforms: SMSC, MMSC, CBS, Voice Mail, Voice SMS, Anti-Spam, ADD.',
@@ -212,7 +234,7 @@ export const experience: ExperienceItem[] = [
   {
     role: 'Teaching Assistant',
     company: 'Vocational High School',
-    period: 'Oct 2012 — Dec 2013',
+    period: 'Oct 2012 - Dec 2013',
     location: 'Damascus, Syria',
     highlights: [
       'Lectured in algorithms and programming (C#, VB.Net, Pascal, Delphi); ran the lab as professional trainer.',
@@ -226,19 +248,19 @@ export const education: EducationItem[] = [
     degree: 'Master 2IS',
     field: 'Innovative Information Systems',
     institution: 'Université Toulouse 1 Capitole',
-    period: '2017 — 2019',
+    period: '2017 - 2019',
   },
   {
     degree: 'Diploma',
     field: 'Management, Department of Training Management',
     institution: 'Damascus University',
-    period: '2013 — 2014',
+    period: '2013 - 2014',
   },
   {
     degree: 'Bachelor of Information Technology Engineering',
     field: 'Software Engineering and Information Systems',
     institution: 'Damascus University',
-    period: '2007 — 2013',
+    period: '2007 - 2013',
   },
 ];
 

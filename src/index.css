@@ -5,7 +5,7 @@
 --------------------------------------------------------------- */
 
 :root {
-  /* Colors — light (ivory paper) */
+  /* Colors: light (ivory paper) */
   --color-bg: #faf7f1;
   --color-bg-subtle: #f4efe4;
   --color-surface: #ffffff;
@@ -127,7 +127,7 @@ a:hover {
   border-bottom-color: var(--color-accent);
 }
 
-/* Section labels — small caps, tracked */
+/* Section labels: small caps, tracked */
 .eyebrow {
   font-family: var(--font-sans);
   font-size: 0.72rem;
