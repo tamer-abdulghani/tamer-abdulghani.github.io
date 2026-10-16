@@ -41,7 +41,7 @@ export const profile = {
   name: 'Tamer Abdulghani',
   title: 'AI Domain Architect',
   tagline:
-    'Designing enterprise-grade AI platforms, agentic architectures, and secure cloud-native systems. Turning AI strategy into compliant, reusable components that teams build on.',
+    'I own AI architecture at an investment firm, so every team can build AI that is secure and compliant by design.',
   location: 'Paris, France',
   github: 'https://github.com/tamer-abdulghani',
   linkedin: 'https://www.linkedin.com/in/tamer-abdulghani',
