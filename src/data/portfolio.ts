@@ -39,7 +39,7 @@ export interface Highlight {
 
 export const profile = {
   name: 'Tamer Abdulghani',
-  title: 'AI Architect',
+  title: 'AI Domain Architect',
   tagline:
     'Designing enterprise-grade AI platforms, agentic architectures, and secure cloud-native systems. Turning AI strategy into compliant, reusable components that teams build on.',
   location: 'Paris, France',
@@ -142,18 +142,34 @@ export const highlights: Highlight[] = [
 
 export const experience: ExperienceItem[] = [
   {
-    role: 'VP · AI Architect',
+    role: 'VP · AI Domain Architect',
     company: 'Allianz Global Investors',
-    period: 'Feb 2025 - Present',
+    period: 'Sep 2026 - Present',
     location: 'Paris, France',
     highlights: [
-      'Own the architectural direction of AllianzGI’s AI Platform and AI Hub, driving the technical roadmap and shaping technology choices.',
-      'Enable enterprise AI adoption through stakeholder engagement, knowledge-sharing forums, and communities of practice.',
-      'Develop golden-pathway application templates for RAG and agentic AI, with built-in governance and security controls.',
-      'Provide technical leadership to internal AI teams, offshore developers, and interns; conduct interviews and L3 escalations.',
-      'Implement AI governance and security frameworks applying zero-trust principles to enterprise AI deployments.',
-      'Work with enterprise architecture, information security, risk, and compliance teams to align AI solutions with the EU AI Act, DORA, and GDPR.',
-      'Research emerging AI trends (agentic frameworks, coding agents, DevOps agents) alongside regulatory developments, and translate them into enterprise standards.',
+      'Own the entire AllianzGI AI domain architecture: the AI target architecture, building blocks, standards, artifacts, and the change process.',
+      'Set AI standards, component design, and release priorities, and decide which architecture gaps to close first.',
+      'Chair the AI design authority, which reviews solution designs and decides on exceptions; maintain reference architectures for RAG, agentic, and multi-agent systems, and integration standards such as MCP.',
+      'Act as technical lead for internal, offshore, and external engineers delivering AI foundation components, accountable for technical delivery of the roadmap: translate it into epics with clear technical direction, review designs and code, remove blockers, and own L3 escalations.',
+      'Set and enforce the engineering way of working, and stay hands-on with critical components: AI gateway, MCP, agents, orchestration, and sandboxes.',
+      'Keep the AI domain secure and compliant by design: protection against AI-specific attacks (prompt injection, data exfiltration, agent tool misuse), automated guardrails, policy as code (OPA), DSPM/AI-SPM integration, and audit-ready evidence for the EU AI Act, DORA, and GDPR.',
+      'Serve as technical counterpart to the technology organization, Allianz Group architecture, information security, and risk.',
+      'Steer external parties (frameworks, SDKs, vendors, consultants) through technical requirements, deliverable reviews, and build-vs-buy recommendations, and shape the future delivery mix of internal skills, partners, and cross-team synergies.',
+    ],
+  },
+  {
+    role: 'VP · AI Architect',
+    company: 'Allianz Global Investors',
+    period: 'Feb 2025 - Sep 2026',
+    location: 'Paris, France',
+    highlights: [
+      'Owned the architectural direction of AllianzGI’s AI Platform and AI Hub, driving the technical roadmap and shaping technology choices.',
+      'Enabled enterprise AI adoption through stakeholder engagement, knowledge-sharing forums, and communities of practice.',
+      'Developed golden-pathway application templates for RAG and agentic AI, with built-in governance and security controls.',
+      'Provided technical leadership to internal AI teams, offshore developers, and interns; conducted interviews and L3 escalations.',
+      'Implemented AI governance and security frameworks applying zero-trust principles to enterprise AI deployments.',
+      'Worked with enterprise architecture, information security, risk, and compliance teams to align AI solutions with the EU AI Act, DORA, and GDPR.',
+      'Researched emerging AI trends (agentic frameworks, coding agents, DevOps agents) alongside regulatory developments, and translated them into enterprise standards.',
     ],
   },
   {
