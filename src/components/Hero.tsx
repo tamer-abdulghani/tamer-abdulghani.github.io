@@ -72,13 +72,17 @@ export default function Hero() {
         <p
           style={{
             fontSize: '1.1rem',
-            maxWidth: '640px',
+            maxWidth: '760px',
             margin: '0 auto 2.5rem',
             color: 'var(--color-text-soft)',
             fontStyle: 'italic',
           }}
         >
-          {profile.tagline}
+          {profile.tagline.map((line) => (
+            <span key={line} style={{ display: 'block' }}>
+              {line}
+            </span>
+          ))}
         </p>
 
         <div

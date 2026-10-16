@@ -40,8 +40,11 @@ export interface Highlight {
 export const profile = {
   name: 'Tamer Abdulghani',
   title: 'AI Domain Architect',
-  tagline:
-    'Enterprise AI architecture, agentic systems, and AI governance in financial services',
+  tagline: [
+    'Designing enterprise-wide AI architecture for a global investment firm.',
+    'Defining the technology stack, DevSecOps pipelines, and security controls AI depends on.',
+    'Enabling agentic AI systems that organizations can trust and build on.',
+  ],
   location: 'Paris, France',
   github: 'https://github.com/tamer-abdulghani',
   linkedin: 'https://www.linkedin.com/in/tamer-abdulghani',
