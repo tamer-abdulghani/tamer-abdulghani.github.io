@@ -41,9 +41,8 @@ export const profile = {
   name: 'Tamer Abdulghani',
   title: 'AI Domain Architect',
   tagline: [
-    'Designing enterprise-wide AI architecture for a global investment firm.',
-    'Defining the technology stack, DevSecOps pipelines, and security controls AI depends on.',
-    'Enabling agentic AI systems that organizations can trust and build on.',
+    'From application code to enterprise AI architecture: twelve years across software, data and cloud.',
+    'Today I own the AI architecture of a global asset manager, and still turn ideas into production applications.',
   ],
   location: 'Paris, France',
   github: 'https://github.com/tamer-abdulghani',
